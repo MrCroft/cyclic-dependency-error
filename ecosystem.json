@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "adminpanel.porndoe.com",
+      "script": "./dist/server.js",
+      "cwd": "/home/nodejs/apps/adminpanel.porndoe.com/active",
+      "env": {
+        "COMMON_VARIABLE": "true",
+        "PORT": 10010,
+        "TZ": "Europe/Bucharest"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
